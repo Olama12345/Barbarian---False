@@ -1,3 +1,5 @@
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1950, 4, -1202.29993, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+
 _G.Condition = false
 while _G.Condition == true do
 wait(0.01)
@@ -13,5 +15,3 @@ game:GetService("ReplicatedStorage").Remotes.ShootEvent:FireServer(unpack(args))
 
 
 end
-
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1950, 4, -1202.29993, 0, 0, -1, 0, 1, 0, 1, 0, 0)
